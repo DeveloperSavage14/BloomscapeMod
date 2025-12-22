@@ -24,5 +24,5 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(DREAMERS_DUST);
         });
-    };
+    }
 }

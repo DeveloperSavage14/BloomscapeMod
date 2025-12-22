@@ -1,5 +1,9 @@
 {
   "item.bloomscape.dreamers_dust": "Dreamers Dust",
+
   "item.bloomscape.restored_bloomscape": "Restored Bloomscape",
-  "item.bloomscape.tarnished_bloomscape": "Tarnished Bloomscape"
+  "item.bloomscape.tarnished_bloomscape": "Tarnished Bloomscape",
+
+  "itemgroup.bloomscape.bloomscape_items_group": "Bloomscape Items",
+  "itemgroup.bloomscape.bloomscape_blocks_group": "Bloomscape Blocks"
 }
