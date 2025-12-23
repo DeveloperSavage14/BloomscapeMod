@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "bloomscape:block/restored_dandelion",
+      "render_type": "cutout"
+    }
+  }
+}
