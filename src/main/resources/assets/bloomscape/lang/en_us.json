@@ -2,7 +2,12 @@
   "item.bloomscape.dreamers_dust": "Dreamers Dust",
 
   "block.bloomscape.restored_dandelion": "Restored Dandelion",
+  "block.bloomscape.restored_poppy": "Restored Poppy",
+  "block.bloomscape.restored_tulip": "Restored Tulip",
+  "block.bloomscape.tarnished_poppy": "Tarnished Poppy",
   "block.bloomscape.tarnished_dandelion": "Tarnished Dandelion",
+  "block.bloomscape.tarnished_tulip": "Tarnished Tulip",
+
 
   "block.bloomscape.restored_bloomscape": "Restored Bloomscape",
   "block.bloomscape.tarnished_bloomscape": "Tarnished Bloomscape",

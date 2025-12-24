@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "bloomscape:block/restored_tulip",
+      "render_type": "cutout"
+    }
+  }
+}

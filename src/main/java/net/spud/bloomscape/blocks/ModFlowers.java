@@ -34,6 +34,42 @@ public class ModFlowers {
                     .sounds(BlockSoundGroup.GRASS)
                     .offset(AbstractBlock.OffsetType.XZ)
                     .pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block RESTORED_POPPY = registerBlock("restored_poppy",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .nonOpaque()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block TARNISHED_POPPY = registerBlock("tarnished_poppy",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .nonOpaque()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block RESTORED_TULIP = registerBlock("restored_tulip",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .nonOpaque()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block TARNISHED_TULIP = registerBlock("tarnished_tulip",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .nonOpaque()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
@@ -51,6 +87,10 @@ public class ModFlowers {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(RESTORED_DANDELION);
             fabricItemGroupEntries.add(TARNISHED_DANDELION);
+            fabricItemGroupEntries.add(RESTORED_POPPY);
+            fabricItemGroupEntries.add(TARNISHED_POPPY);
+            fabricItemGroupEntries.add(RESTORED_TULIP);
+            fabricItemGroupEntries.add(TARNISHED_TULIP);
         });
     }
 }

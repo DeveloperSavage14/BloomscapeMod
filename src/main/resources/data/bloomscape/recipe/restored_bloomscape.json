@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " D ",
+    "DTD"
+  ],
+  "key": {
+    "D": [
+      "bloomscape:dreamers_dust"
+    ],
+    "T": [
+      "minecraft:dirt",
+      "minecraft:moss_block"
+    ]
+  },
+  "result": {
+    "id": "bloomscape:restored_bloomscape",
+    "count": 1
+  }
+}

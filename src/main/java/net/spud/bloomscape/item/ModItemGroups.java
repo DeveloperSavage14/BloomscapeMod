@@ -37,6 +37,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModFlowers.RESTORED_DANDELION);
                         entries.add(ModFlowers.TARNISHED_DANDELION);
+                        entries.add(ModFlowers.RESTORED_POPPY);
+                        entries.add(ModFlowers.TARNISHED_POPPY);
+                        entries.add(ModFlowers.RESTORED_TULIP);
+                        entries.add(ModFlowers.TARNISHED_TULIP);
                     }).build());
 
     public static void registerItemGroups(){
